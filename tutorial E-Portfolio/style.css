@@ -338,6 +338,7 @@ nav {
   overflow: hidden;
   position: relative;
 }
+
 .project__wrapper::before {
   content: "";
   position: absolute;
@@ -394,11 +395,12 @@ nav {
   margin-right: 16px;
 }
 
+
 .project__description--title,
 .project__description--sub-title,
 .project__description--para,
-.project__description--link {
-  text-align: left;
+.project__description--links {
+  text-align: center;
   color: #fff;
 }
 
@@ -450,7 +452,7 @@ footer {
 
 .footer__anchor {
   margin-bottom: 25px;
-  position: absolute;
+  position: relative;
 }
 
 .footer__anchor:hover .footer__logo--popper {
